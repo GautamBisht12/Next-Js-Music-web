@@ -46,7 +46,7 @@ const FeaturedCourses = () => {
                   alt={data.title}
                   height="400"
                   width="400"
-                  className="object-cover max-h-[50vh] md:max-h-[60vh]  rounded-md"
+                  className="object-cover max-h-[50vh] md:max-h-[40vh]  rounded-md"
                 />
                 <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
                   {data.title}
