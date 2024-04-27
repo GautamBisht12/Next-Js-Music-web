@@ -39,7 +39,7 @@ const FeaturedCourses = () => {
             {filteredData?.map((data: Course) => (
               <BackgroundGradient
                 key={data.id}
-                className="rounded-[22px]   p-4 sm:p-10 bg-white dark:bg-zinc-900"
+                className="rounded-[22px] md:max-h-[77vh] p-4 sm:p-10 bg-white dark:bg-zinc-900"
               >
                 <Image
                   src={data.image}

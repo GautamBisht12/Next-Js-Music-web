@@ -4,6 +4,9 @@ import React from "react";
 
 import { WavyBackground } from "./ui/wavy-background";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
+import { Button } from "./ui/moving-border";
+import Link from "next/link";
+import { FaArrowCircleUp } from "react-icons/fa";
 
 const people = [
   {
