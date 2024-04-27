@@ -25,7 +25,7 @@ export function LampHeroSection() {
           <p className="mt-4  font-semibold tracking-wide max-w-2xl text-base md:text-lg text-neutral-300 mx-auto ">
             Dive into our Comprehensive music courses and transforn your musical
             journey today. Whether you're a beginner or looking to refine your
-            skills , join us to unlock your true potential.{" "}
+            skills , join us to unlock your true potential.
           </p>
           <div className="mt-8">
             <Link href={"/courses"}>
