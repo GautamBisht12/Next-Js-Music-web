@@ -1,7 +1,9 @@
 import FeaturedCourses from "./components/FeaturedCourses";
 import Harmony from "./components/Harmony";
-import HeroSection from "./components/HeroSection";
+// import HeroSection from "./components/HeroSection";
+import Instructors from "./components/Instructors";
 import { LampHeroSection } from "./components/LampHeroSection";
+import Webinars from "./components/Webinars";
 import WhyChooseUs from "./components/WhyChooseUs";
 
 export default function Home() {
@@ -12,6 +14,8 @@ export default function Home() {
       <FeaturedCourses />
       <WhyChooseUs />
       <Harmony />
+      <Webinars />
+      <Instructors />
     </main>
   );
 }
