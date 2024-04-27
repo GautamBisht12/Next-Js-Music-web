@@ -14,7 +14,7 @@ interface Course {
   price: number;
   instructor: string;
   isFeatured: boolean;
-  image?: string;
+  image?: any;
 }
 
 const FeaturedCourses = () => {
