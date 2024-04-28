@@ -7,7 +7,7 @@ import { Button } from "./ui/moving-border";
 
 export function LampHeroSection() {
   return (
-    <LampContainer className="w-full ">
+    <LampContainer className="w-full bg-text-clip-support">
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -18,7 +18,7 @@ export function LampHeroSection() {
         }}
         className="-mt-[300px] relative   bg-gradient-to-br from-slate-300 to-slate-500  bg-text-clip-support  bg-clip-text text-center text-4xl font-medium tracking-tight md:text-transparent md:text-7xl"
       >
-        <div className="top-[220px] md:top-40  relative z-10 w-full text-center">
+        <div className="top-[190px] md:top-40  relative z-10 w-full text-center">
           <h1 className=" text-3xl  md:text-7xl bg-text-clip-support font-bold bg-clip-text text-transparent  bg-gradient-to-b from-neutral-50 to-neutral-400">
             Master the art of music
           </h1>
