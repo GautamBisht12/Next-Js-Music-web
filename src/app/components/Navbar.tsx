@@ -16,7 +16,7 @@ const Navbar = ({ className }: { className?: string }) => {
         )}
       >
         <Menu setActive={setActive}>
-          <Link href={"/"}>
+          <Link className="text-xs md:text-lg " href={"/"}>
             <MenuItem
               setActive={setActive}
               active={active}
@@ -24,14 +24,14 @@ const Navbar = ({ className }: { className?: string }) => {
             ></MenuItem>
           </Link>
 
-          <Link href={"/courses"}>
+          <Link className="text-[14px] md:text-lg" href={"/courses"}>
             <MenuItem
               setActive={setActive}
               active={active}
               item="All Courses"
             ></MenuItem>
           </Link>
-          <Link href={"/contact"}>
+          <Link className="text-[14px] md:text-lg" href={"/contact"}>
             <MenuItem
               setActive={setActive}
               active={active}
@@ -39,7 +39,11 @@ const Navbar = ({ className }: { className?: string }) => {
             ></MenuItem>
           </Link>
 
-          <Link target="_blank" href={"http://gautambisht.rf.gd/"}>
+          <Link
+            className="text-[14px] md:text-lg"
+            target="_blank"
+            href={"http://gautambisht.rf.gd/"}
+          >
             <MenuItem
               setActive={setActive}
               active={active}

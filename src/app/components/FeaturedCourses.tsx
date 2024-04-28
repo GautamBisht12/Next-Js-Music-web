@@ -23,7 +23,7 @@ const FeaturedCourses = () => {
   );
   return (
     <>
-      <div className="py-12 bg-gray-900">
+      <div className="  py-12 bg-gray-900">
         <div>
           <div className="text-center">
             <h2 className="text-base test-teal-600 font-semibold tracking-wide">
@@ -39,14 +39,14 @@ const FeaturedCourses = () => {
             {filteredData?.map((data: Course) => (
               <BackgroundGradient
                 key={data.id}
-                className="rounded-[22px] md:max-h-[77vh] p-4 sm:p-10 bg-white dark:bg-zinc-900"
+                className="rounded-[22px]  max-h-[50vh] md:max-h-[77vh] p-4 sm:p-10 bg-white dark:bg-zinc-900"
               >
                 <Image
                   src={data.image}
                   alt={data.title}
                   height="400"
                   width="400"
-                  className="object-cover max-h-[50vh] md:max-h-[40vh]  rounded-md"
+                  className="object-cover max-h-[25vh] md:max-h-[40vh]  rounded-md"
                 />
                 <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
                   {data.title}
@@ -61,7 +61,7 @@ const FeaturedCourses = () => {
                     {data.price}
                   </span>
                 </button>
-                <div className="ml-2 text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+                <div className="hidden md:block  ml-2 text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
                   <Link className="underline" href={`/courses/${data.slug}`}>
                     Learn More
                   </Link>

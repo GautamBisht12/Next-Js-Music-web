@@ -24,11 +24,11 @@ const ContactUs = () => {
         <div className=" absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
         <Boxes />
-        <div className="md:mt-20 mt-24 z-30 flex flex-col justify-center items-center">
+        <div className="md:mt-20 mt-24  z-30 flex flex-col justify-center items-center">
           <h1 className={cn("md:text-4xl text-xl text-white relative z-20")}>
             Contact Us
           </h1>
-          <p className="text-center mt-2 text-neutral-300 w-[400px] md:w-[600px] relative z-20">
+          <p className="text-center mt-2 text-neutral-300 w-[320px] md:w-[600px] relative z-20">
             We're here to help with any questions about our courses , programers
             , or events. Reach out and let us know how we can assist you in your
             musical journey.
