@@ -11,12 +11,12 @@ const Navbar = ({ className }: { className?: string }) => {
     <>
       <div
         className={cn(
-          "fixed top-10 inset-x-0 max-w-2xl mx-auto z-50",
+          "fixed top-10  inset-x-0 max-w-2xl mx-auto z-50",
           className
         )}
       >
         <Menu setActive={setActive}>
-          <Link className="text-xs md:text-lg " href={"/"}>
+          <Link className="text-[12px] md:text-lg " href={"/"}>
             <MenuItem
               setActive={setActive}
               active={active}
@@ -24,14 +24,14 @@ const Navbar = ({ className }: { className?: string }) => {
             ></MenuItem>
           </Link>
 
-          <Link className="text-[14px] md:text-lg" href={"/courses"}>
+          <Link className="text-[12px] md:text-lg" href={"/courses"}>
             <MenuItem
               setActive={setActive}
               active={active}
               item="All Courses"
             ></MenuItem>
           </Link>
-          <Link className="text-[14px] md:text-lg" href={"/contact"}>
+          <Link className="text-[12px] md:text-lg" href={"/contact"}>
             <MenuItem
               setActive={setActive}
               active={active}
@@ -40,7 +40,7 @@ const Navbar = ({ className }: { className?: string }) => {
           </Link>
 
           <Link
-            className="text-[14px] md:text-lg"
+            className="text-[12px] md:text-lg"
             target="_blank"
             href={"http://gautambisht.rf.gd/"}
           >
