@@ -16,10 +16,10 @@ export function LampHeroSection() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="-mt-[300px] relative   bg-gradient-to-br from-slate-300 to-slate-500  md:bg-clip-text text-center text-4xl font-medium tracking-tight md:text-transparent md:text-7xl"
+        className="-mt-[300px] relative   bg-gradient-to-br from-slate-300 to-slate-500  bg-text-clip-support  bg-clip-text text-center text-4xl font-medium tracking-tight md:text-transparent md:text-7xl"
       >
         <div className="top-[220px] md:top-40  relative z-10 w-full text-center">
-          <h1 className=" text-3xl md:text-7xl font-bold md:bg-clip-text text-transparent  bg-gradient-to-b from-neutral-50 to-neutral-400">
+          <h1 className=" text-3xl  md:text-7xl bg-text-clip-support font-bold bg-clip-text text-transparent  bg-gradient-to-b from-neutral-50 to-neutral-400">
             Master the art of music
           </h1>
           <p className="mt-8  font-semibold tracking-wide max-w-2xl text-sm md:text-lg text-neutral-300 mx-auto ">
