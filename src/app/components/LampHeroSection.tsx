@@ -7,7 +7,7 @@ import { Button } from "./ui/moving-border";
 
 export function LampHeroSection() {
   return (
-    <LampContainer className="w-full bg-text-clip-support">
+    <LampContainer className="w-full max-sm:bg-text-clip-support">
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
